@@ -1,0 +1,137 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+.fvm/flutter_sdk
+pubspec.lock
+ios/Runner.ipa
+ios/Runner.app.dSYM.zip
+*.gem
+*.rbc
+/.config
+coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+rspec_logs.json
+test_output/
+.DS_STORE
+.keys
+genhtml.perl
+
+## Specific to Android
+.gradle/
+local.properties
+
+## Specific to screengrab
+/screengrab/example/fastlane/metadata/
+/screengrab/target/
+
+## Specific to RubyMotion:
+.dat*
+.repl_history
+build/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalisation:
+/.bundle/
+/lib/bundler/man/
+
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+# Gemfile.lock
+.ruby-version
+.ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# fastlane specific
+/*.itmsp
+.idea
+.rakeTasks
+spec/fixtures/*.itmsp/*.png
+/integration
+**/report.xml
+**/.bundle
+fastlane/lib/fastlane/plugins/template/.rubocop.yml
+snapshot/example/fastlane/README.md
+snapshot/example/fastlane/screenshots
+fastlane/FastlaneRunner
+fastlane/swift/FastlaneRunner
+vendor
+
+# iOS specific ignores, used in sample projects inside the repo
+DerivedData
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Dotenv
+.env
+/macos/Flutter/ephemeral/
+/macos/Flutter/GeneratedPluginRegistrant.swift
+ios/Podfile.lock
+.firebase/hosting.YnVpbGQvd2Vi.cache
+/deploy/node_modules
+package-lock.json
+/local.properties
+macos/Pods/
