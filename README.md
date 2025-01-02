@@ -14,29 +14,24 @@ It uses Bloc/Cubit for state management and incorporates Atomic Design principle
 ### Steps
 
 1. **Clone the repository:**
-   bash git clone https://github.com/asheshpaul/trainings
+   `git clone https://github.com/asheshpaul/trainings`
 
 2. **Navigate to the project directory:**
-   bash cd trainings
+   `cd trainings`
 
 3. **Get dependencies:**
-   flutter pub get
+   `flutter pub get`
    This command will download and install all the necessary packages for the project.
 
 4. **Run the application:**
-   flutter run
+   `flutter run`
    This command will build and launch the application on your connected device or emulator.
 
 ## Additional Notes
 
-* **Configuration:** You might need to adjust some configuration settings in the project, such as flutter version.
-* **Troubleshooting:** If you encounter any issues during the setup or running process, refer to the project's documentation or online resources for troubleshooting tips.
+* **Configuration:** You might need to adjust some configuration settings in the project, such as flutter version, fvm used.
+* **Troubleshooting:** If you encounter any issues during the setup or running process, online resources for troubleshooting tips.
 
 ## Detailed Instructions
 
-For more detailed instructions and information about the project's structure, features, and dependencies, please contact the project maintainers.
-
-## Disclaimer
-
-These instructions are based on the understanding of the project from the provided code snippets. 
-There might be additional steps or configurations required depending on the specific setup of your project.
+For more detailed instructions and information about the project's structure, features, and dependencies, please contact the project maintainer.
