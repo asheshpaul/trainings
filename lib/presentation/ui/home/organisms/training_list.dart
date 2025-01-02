@@ -7,6 +7,7 @@ import '../../shared/atoms/colors.dart';
 import '../atoms/empty_message.dart';
 import '../atoms/loading_indicator.dart';
 import '../molecules/training_list_item.dart';
+import '../pages/training_details_page.dart';
 
 class TrainingList extends StatelessWidget {
   const TrainingList({super.key});
@@ -41,7 +42,10 @@ class TrainingList extends StatelessWidget {
                 var training = trainingsToShow[index];
                 return TrainingListItem(
                   training: training,
-                  onEnroll: () {},
+                  onEnroll: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) =>
+                            TrainingDetailsPage(training: training)));},
                 );
               },
             ),
