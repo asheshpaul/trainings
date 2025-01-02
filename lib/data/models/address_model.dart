@@ -10,4 +10,6 @@ class Address {
     required this.countryName,
     required this.countryCode,
   });
+
+  String get formattedAddress => '$place, $city - $countryCode';
 }

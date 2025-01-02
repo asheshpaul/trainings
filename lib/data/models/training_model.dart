@@ -1,6 +1,7 @@
 import 'address_model.dart';
 
 class Training {
+  final String bannerImage;
   final String titleHeader;
   final String title;
   final String summary;
@@ -15,6 +16,7 @@ class Training {
   final String trainerImg;
 
   Training({
+    required this.bannerImage,
     required this.titleHeader,
     required this.title,
     required this.summary,
