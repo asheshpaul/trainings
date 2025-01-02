@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../data/data_sources/dummy_trainings.dart';
-import '../../../cubits/training_cubit.dart';
-import '../../../cubits/training_state.dart';
+import '../../../bloc/training_cubit.dart';
+import '../../../bloc/training_state.dart';
 import '../../shared/atoms/colors.dart';
 
 class FilterBottomSheet extends StatelessWidget {

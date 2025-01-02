@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'domain/training_repository.dart';
-import 'presentation/cubits/training_cubit.dart';
+import 'presentation/bloc/training_cubit.dart';
 import 'presentation/ui/home/pages/home_page.dart';
 import 'presentation/ui/shared/atoms/colors.dart';
 

@@ -2,8 +2,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../cubits/training_cubit.dart';
-import '../../../cubits/training_state.dart';
+import '../../../bloc/training_cubit.dart';
+import '../../../bloc/training_state.dart';
 import '../../shared/atoms/colors.dart';
 import '../atoms/empty_message.dart';
 import '../atoms/loading_indicator.dart';
